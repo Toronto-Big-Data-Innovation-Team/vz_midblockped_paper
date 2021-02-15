@@ -1,0 +1,11 @@
+title: "Vision Zero Pedestrian Midblock Collision Network Screening"
+author: "Big Data Innovation Team, City of Toronto Transportation Services"
+logo: images/logo.png
+execute:
+  execute_notebooks: "auto"
+bibtex_bibfiles:
+   - references.bib
+launch_buttons:
+  binderhub_url: ""
+repository:
+  url: https://github.com/Toronto-Big-Data-Innovation-Team/vz_midblockped_paper
