@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Search &#8212; Midblock Crossing Collision Network Screening</title>
+    <title>Methods &#8212; Midblock Crossing Collision Network Screening</title>
     
   <link href="_static/css/theme.css" rel="stylesheet" />
   <link href="_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
@@ -33,7 +33,6 @@
     
   <link rel="preload" as="script" href="_static/js/index.1c5a1a01449ed65a7b51.js">
 
-    
     <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
     <script src="_static/jquery.js"></script>
     <script src="_static/underscore.js"></script>
@@ -50,16 +49,13 @@
         const thebe_selector_output = ".output"
     </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
-    <script src="_static/searchtools.js"></script>
-    <script src="_static/language_data.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
-    <link rel="search" title="Search" href="#" />
-  <script src="searchindex.js" defer></script>
-  
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Appendix" href="appendix.html" />
+    <link rel="prev" title="Background" href="background.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
     
-
   </head>
   <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
     
@@ -79,7 +75,7 @@
       <h1 class="site-logo" id="site-title">Midblock Crossing Collision Network Screening</h1>
       
     </a>
-</div><form class="bd-search d-flex align-items-center" action="#" method="get">
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
   <i class="icon fas fa-search"></i>
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
 </form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
@@ -91,14 +87,14 @@
   </a>
  </li>
 </ul>
-<ul class="nav bd-sidenav">
+<ul class="current nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="background.html">
    Background
   </a>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="methods.html">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
    Methods
   </a>
  </li>
@@ -145,6 +141,23 @@
             </button>
             
             
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/methods.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.ipynb</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
             <!-- Source interaction buttons -->
 
             <!-- Full screen (wrap in <a> to have style consistency -->
@@ -161,6 +174,19 @@
         <!-- Table of contents -->
         <div class="d-none d-md-block col-md-2 bd-toc show">
             
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#modelling-procedure">
+   Modelling Procedure
+  </a>
+ </li>
+</ul>
+
+            </nav>
         </div>
     </div>
 </div>
@@ -169,33 +195,51 @@
         
               <div>
                 
-  <h1 id="search-documentation">Search</h1>
-  <div id="fallback" class="admonition warning">
-  <script>$('#fallback').hide();</script>
-  <p>
-    Please activate JavaScript to enable the search
-    functionality.
-  </p>
-  </div>
-  <p>
-    Searching for multiple words only shows matches that contain
-    all words.
-  </p>
-  <form action="" method="get">
-    <input type="text" name="q" aria-labelledby="search-documentation" value="" />
-    <input type="submit" value="search" />
-    <span id="search-progress" style="padding-left: 10px"></span>
-  </form>
-  
-  <div id="search-results">
-  
-  </div>
+  <div class="section" id="methods">
+<span id="section-methods"></span><h1>Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="modelling-procedure">
+<h2>Modelling Procedure<a class="headerlink" href="#modelling-procedure" title="Permalink to this headline">¶</a></h2>
+<p>Our model and operationalization recommendations are based on a network screening and infrastructure prioritization framework developed at the Highway Safety Research Center at the University of North Carolina - Chapel Hill, which is described in Kumfer et al. 2019 <span id="id1">[<a class="reference internal" href="biblio.html#id2"><span>KTSL19</span></a>]</span> and a corresponding National Cooperative Highway Research Program (NCHRP) contractor’s report <span id="id2">[<a class="reference internal" href="biblio.html#id4"><span>TKL+18</span></a>]</span>. Their framework adapts modelling and prioritization techniques typically used for vehicle-vehicle collisions on highways to vehicle-pedestrian ones, and it forms the technical underpinnings of the NCHRP guide on pedestrian network screening best practices <span id="id3">[<a class="reference internal" href="biblio.html#id3"><span>TSZ+18</span></a>]</span>. While this guide covers a number possible approaches to pedestrian collision network screening, Kumfer et al. is particularly interesting to us because they specifically tackle the difficult task of modeling midblock pedestrian crossing collisions, which tend to be rarer.</p>
+<p>Their procedure is:</p>
+<ol class="simple">
+<li><p>Obtain a midblock network - a geospatial table of where each row represents the roadway of a midblock.</p></li>
+<li><p>Associate collision location data to the midblocks, as well as a wide range of physical, demographic, traffic volume, and other types of data. The result is that each midblock has an associated population density, traffic volume, etc., that serve as independent variables to the regression, and an associated number of collisions, serving as the dependent variable.</p></li>
+<li><p>Perform dimensionality reduction, to reduce the number of independent variables used in the regression to those that are most significantly predictive.</p></li>
+<li><p>Perform a negative binomial regression to obtain the final model.</p></li>
+</ol>
+<p>For more detail, please see [cite}<code class="docutils literal notranslate"><span class="pre">thom+2018guide</span></code> Data and Methodology, and <span id="id4">[<a class="reference internal" href="biblio.html#id3"><span>TSZ+18</span></a>]</span> Section 4.2.</p>
+<p>Our procedure broadly follows these steps. In step 3, Kumfer et al. used a conditional random forest (CRF) to select only variables that have a statistically significant predictive effect for collision frequency, and reduced the number of independent variables from 51 to 35-36 <span id="id5">[<a class="reference internal" href="biblio.html#id4"><span>TKL+18</span></a>]</span>. We instead perform a simpler dimensionality reduction that focuses on reducing multicollinearity.</p>
+<p>Negative binomial regression is one of the modelling methods in general use for collision frequency modelling. For an overview of alternatives, and our rational for adopting this method, see <a class="reference internal" href="appendix.html#section-appendix-alternate"><span class="std std-ref">Alternate Modelling Procedures</span></a>.</p>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python36964bitbdittovenvd56842b7ca0c4929925d70f8c4c7f13a",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python36964bitbdittovenvd56842b7ca0c4929925d70f8c4c7f13a'</script>
 
               </div>
               
         
         <div class='prev-next-bottom'>
             
+    <a class='left-prev' id="prev-link" href="background.html" title="previous page">Background</a>
+    <a class='right-next' id="next-link" href="appendix.html" title="next page">Appendix</a>
 
         </div>
         

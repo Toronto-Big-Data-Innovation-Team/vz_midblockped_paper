@@ -1,12 +1,14 @@
 
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
   <head>
     <meta charset="utf-8" />
-    <title>Introduction &#8212; Vision Zero Pedestrian Midblock Collision Network Screening</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Introduction &#8212; Midblock Crossing Collision Network Screening</title>
     
-  <link rel="stylesheet" href="_static/css/index.f658d18f9b420779cfdf24aa0a7e2d77.css">
+  <link href="_static/css/theme.css" rel="stylesheet" />
+  <link href="_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
 
     
   <link rel="stylesheet"
@@ -18,14 +20,10 @@
 
     
       
-  <link rel="stylesheet"
-    href="_static/vendor/open-sans_all/1.44.1/index.css">
-  <link rel="stylesheet"
-    href="_static/vendor/lato_latin-ext/1.44.1/index.css">
 
     
-    <link rel="stylesheet" href="_static/sphinx-book-theme.40e2e510f6b7d1648584402491bb10fe.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/sphinx-book-theme.acff12b8f9c144ce68a297486a2fa670.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
@@ -33,18 +31,17 @@
     <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
     <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
     
-  <link rel="preload" as="script" href="_static/js/index.d3f166471bb80abb5163.js">
+  <link rel="preload" as="script" href="_static/js/index.1c5a1a01449ed65a7b51.js">
 
     <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
     <script src="_static/jquery.js"></script>
     <script src="_static/underscore.js"></script>
     <script src="_static/doctools.js"></script>
-    <script src="_static/language_data.js"></script>
     <script src="_static/togglebutton.js"></script>
     <script src="_static/clipboard.min.js"></script>
     <script src="_static/copybutton.js"></script>
     <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script src="_static/sphinx-book-theme.d31b09fe5c1d09cb49b26a786de4a05d.js"></script>
+    <script src="_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
     <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
     <script >
         const thebe_selector = ".thebe"
@@ -54,16 +51,16 @@
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Bibliography" href="biblio.html" />
-    <link rel="prev" title="My book title" href="landing-page.html" />
-
+    <link rel="next" title="Methods" href="methods.html" />
+    <link rel="prev" title="Midblock Crossing Collision Network Screening" href="landing-page.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
-
-
-
+    
   </head>
   <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
     
 
     <div class="container-xl">
@@ -72,28 +69,33 @@
 <div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
     
         <div class="navbar-brand-box">
-<a class="navbar-brand text-wrap" href="index.html">
-  
-  
-  <h1 class="site-logo" id="site-title">Vision Zero Pedestrian Midblock Collision Network Screening</h1>
-  
-</a>
+    <a class="navbar-brand text-wrap" href="index.html">
+      
+      
+      <h1 class="site-logo" id="site-title">Midblock Crossing Collision Network Screening</h1>
+      
+    </a>
 </div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
   <i class="icon fas fa-search"></i>
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
-</form>
-<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
-    <ul class="nav sidenav_l1">
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="landing-page.html">
-   My book title
+   Midblock Crossing Collision Network Screening
   </a>
  </li>
 </ul>
-<ul class="current nav sidenav_l1">
+<ul class="current nav bd-sidenav">
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
    Introduction
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="methods.html">
+   Methods
   </a>
  </li>
  <li class="toctree-l1">
@@ -103,6 +105,7 @@
  </li>
 </ul>
 
+    </div>
 </nav> <!-- To handle the deprecated key -->
 
 <div class="navbar_extra_footer">
@@ -118,21 +121,21 @@
           
 <main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
     
-    <div class="row topbar fixed-top container-xl">
-    <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show">
-    </div>
-    <div class="col pl-2 topbar-main">
-        
-        <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
-            data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
-            aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
-            title="Toggle navigation" data-toggle="tooltip" data-placement="left">
-            <i class="fas fa-bars"></i>
-            <i class="fas fa-arrow-left"></i>
-            <i class="fas fa-arrow-up"></i>
-        </button>
-        
-        
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
 <div class="dropdown-buttons-trigger">
     <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
             class="fas fa-download"></i></button>
@@ -150,22 +153,23 @@
     </div>
 </div>
 
-        <!-- Source interaction buttons -->
+            <!-- Source interaction buttons -->
 
+            <!-- Full screen (wrap in <a> to have style consistency -->
 
-        <!-- Full screen (wrap in <a> to have style consistency -->
-        <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
-                data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
-                title="Fullscreen mode"><i
-                    class="fas fa-expand"></i></button></a>
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
 
-        <!-- Launch buttons -->
+            <!-- Launch buttons -->
 
-    </div>
+        </div>
 
-    <!-- Table of contents -->
-    <div class="d-none d-md-block col-md-2 bd-toc show">
-        
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+        </div>
     </div>
 </div>
     <div id="main-content" class="row">
@@ -181,7 +185,7 @@ all pedestrians seriously injured in a collision, and 42% of all pedestrian
 collision fatalities. More pedestrians are killed or seriously injured in
 midblock crossing collisions than any other type of collision in the City’s
 recent history. Because of this disproportionately high tendency of death or
-serious injury, the City of Toronto’s Vision Zero 2.0 report <span id="id1">[<a class="reference internal" href="biblio.html#id5"><span>oTTSM19</span></a>]</span>
+serious injury, the City of Toronto’s Vision Zero 2.0 report <span id="id1">[<a class="reference internal" href="biblio.html#id5"><span>CityoTTSaSWManagement19</span></a>]</span>
 designates midblock crossings as one of five issues to target road safety
 interventions over the next several years. The report identifies long distances
 between safe crossing locations and the presense of transit stops, retail and
@@ -215,26 +219,35 @@ from recent crash history may only exist due to a fluctuation, and therefore may
 not reflect the underlying risk at the location (likewise a location with few or
 no crashes may only appear relatively safe because of a fluctuation). The United
 States Federal Highway Administration (FHWA) calls this phenomenon the
-“regression to the mean effect” <span id="id2">[<a class="reference internal" href="biblio.html#id3"><span>TSZ+18</span></a>,<span>fhwa2015</span>]</span>, and advocates
+“regression to the mean effect” <span id="id2">[<a class="reference internal" href="biblio.html#id3"><span>TSZ+18</span></a>,<a class="reference internal" href="biblio.html#id6"><span>SGLB16</span></a>]</span>, and advocates
 for network screening approaches based on predictive modeling as part of their
-“systemic safety” approach. These models estimate the relationship between
-various characteristics of a location, such as road width, traffic volume, or
-nearby land usage, and its <strong>mean</strong> collision frequency, i.e. collision
-frequency corrected for statistical issues like regression to the mean. While
-historical crash data is required to fit a model, only location characteristics
-are required to make predictions with it, making models proactive tools rather
-than reactive ones. Additionally, a natural byproduct of the fitting process is
-the relative contributions of each location characteristic in setting the mean
-collision frequency; these can give clues to the root causes of midblock
-crossing risk across the road network.</p>
-<p>In support of Vision Zero 2.0, we develop a model that predicts the midblock
+“systemic safety” approach.</p>
+<p>Predictive models estimate the relationship between various characteristics of a
+location, such as road width, traffic volume, or nearby land usage, and its
+<strong>mean</strong> collision frequency, i.e. collision frequency corrected for statistical
+issues like regression to the mean. While historical crash data is required to
+fit a model, only location characteristics are required to make predictions with
+it, making models proactive tools rather than reactive ones. Additionally, a
+natural byproduct of the fitting process is the relative contributions of each
+location characteristic in setting the mean collision frequency; these can give
+clues to the root causes of midblock crossing risk across the road network.</p>
+<p>In support of Vision Zero 2.0, we developed a model that predicts the midblock
 crossing pedestrian collision frequency on Toronto’s arterial and collector
-streets. Our model is based on one developed at the Highway Safety Research
+streets. Alongside the model, we constructed a framework for integrating its
+results into new and existing City safety infrastructure programs. Our model and
+operationalization recommendations are based on a network screening and
+infrastructure prioritization framework developed at the Highway Safety Research
 Center at the University of North Carolina - Chapel Hill, which is described in
-<span id="id3">[<a class="reference internal" href="biblio.html#id2"><span>KTSL19</span></a>,<a class="reference internal" href="biblio.html#id4"><span>TKL+18</span></a>]</span> and forms the basis of the National
-Cooperative Highway Research Program guide on pedestrian network screening best
-practices <span id="id4">[<a class="reference internal" href="biblio.html#id3"><span>TSZ+18</span></a>]</span>. It will be referred to throughout this report
-as the HSRC model.</p>
+<span id="id3">[<a class="reference internal" href="biblio.html#id2"><span>KTSL19</span></a>,<a class="reference internal" href="biblio.html#id4"><span>TKL+18</span></a>]</span>. The framework adapts modelling and
+prioritization techniques typically used for vehicle-vehicle collisions on
+highways to the specific issue of midblock crossing collisions, and it forms the
+basis of the National Cooperative Highway Research Program guide on pedestrian
+network screening best practices <span id="id4">[<a class="reference internal" href="biblio.html#id3"><span>TSZ+18</span></a>]</span>. It will be referred to
+throughout this report as the HSRC framework.</p>
+<p>This white paper details the development and recommended implementation of the
+model. In <a class="reference internal" href="methods.html#section-methods"><span class="std std-ref">Methods</span></a>, we provide a background on collision frequency
+predictive modelling, and detail our input data, data processing, and modelling
+steps.</p>
 </div>
 
     <script type="text/x-thebe-config">
@@ -259,21 +272,21 @@ as the HSRC model.</p>
 
               </div>
               
-        </div>
-    </div>
-    
-    
-    <div class='prev-next-bottom'>
         
-    <a class='left-prev' id="prev-link" href="landing-page.html" title="previous page">My book title</a>
-    <a class='right-next' id="next-link" href="biblio.html" title="next page">Bibliography</a>
+        <div class='prev-next-bottom'>
+            
+    <a class='left-prev' id="prev-link" href="landing-page.html" title="previous page">Midblock Crossing Collision Network Screening</a>
+    <a class='right-next' id="next-link" href="methods.html" title="next page">Methods</a>
 
+        </div>
+        
+        </div>
     </div>
     <footer class="footer mt-5 mt-md-0">
     <div class="container">
       <p>
         
-          By Big Data Innovation Team, City of Toronto Transportation Services<br/>
+          By Data & Analytics Unit, Policy & Innovation Section, City of Toronto Transportation Services<br/>
         
             &copy; Copyright 2020.<br/>
       </p>
@@ -284,11 +297,9 @@ as the HSRC model.</p>
 
       </div>
     </div>
+  
+  <script src="_static/js/index.1c5a1a01449ed65a7b51.js"></script>
 
-    
-  <script src="_static/js/index.d3f166471bb80abb5163.js"></script>
-
-
-    
+  
   </body>
 </html>

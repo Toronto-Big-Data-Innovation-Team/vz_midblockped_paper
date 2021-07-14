@@ -1,5 +1,5 @@
-title: "Vision Zero Pedestrian Midblock Collision Network Screening"
-author: "Big Data Innovation Team, City of Toronto Transportation Services"
+title: "Midblock Crossing Collision Network Screening"
+author: "Data & Analytics Unit, Policy & Innovation Section, City of Toronto Transportation Services"
 logo: images/logo.png
 execute:
   execute_notebooks: "auto"

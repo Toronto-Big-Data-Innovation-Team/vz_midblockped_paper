@@ -3,14 +3,14 @@
 Over the last decade in the City of Toronto, pedestrians crossing at a midblock
 represent around 15% of all pedestrians involved in a collision, but nearly 30%
 of all pedestrians seriously injured in a collision, and over 40% of all
-pedestrian collision fatalities. Because of this disproportionately high
-likelihood of death or serious injury, the City of Toronto's Vision Zero 2.0
-report {cite}`ts2019` designated midblock crossings as one of five issues to
-focus on over the coming years. The report cites land usage (such as shopping
-and retail), wide roads, high travel speeds and long distances between safe
-crossing locations as major factors to increasing the frequency of midblock
-crossing collisions. It proposes proactive deployment of road safety
-infrastructure, such as new traffic signals, to address them.
+pedestrians killed. Because of this disproportionately high likelihood of death
+or serious injury, the City of Toronto's Vision Zero 2.0 report {cite}`ts2019`
+designated midblock crossings as one of five issues to focus on over the coming
+years. The report cites land usage (such as shopping and retail), wide roads,
+high travel speeds and long distances between safe crossing locations as major
+factors to increasing the frequency of midblock crossing collisions. It proposes
+proactive deployment of road safety infrastructure, such as new traffic signals,
+to address them.
 
 To optimize the deployment of infrastructure, Vision Zero 2.0 advocates for a
 data-driven review of Toronto's road network that leverages the City's
