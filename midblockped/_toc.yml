@@ -1,4 +1,6 @@
-- file: landing-page
+format: jb-article
+root: landing-page
+sections:
 - file: background
 - file: methods
 - file: appendix
