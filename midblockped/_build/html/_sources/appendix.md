@@ -17,7 +17,7 @@ collision frequencies on individual midblocks, and so is not directly applicable
 to our current work.
 
 Negative binomial regression is the simplest commonly-used model that accounts
-for the **overdispersion** of collision data, a common statistical property of
+for the overdispersion of collision data, a common statistical property of
 observed collision frequency data in which the variance significantly exceeds
 the mean {cite}`washkm03`,  More sophisticated regression models (see eg.
 {cite}`lordm10,srinb13,ziaky20` for review papers) that can better fit collision
